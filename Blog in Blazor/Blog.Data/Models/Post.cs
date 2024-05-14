@@ -19,6 +19,8 @@ namespace Blog.Data.Models
 
         public string? UpdatedBy { get; set; }
 
+        public DateTime? UpdatedData { get; set; }
+
         public List<PostCategory> PostCategories { get; set; }
 
         public List<Comment> Comments { get; set; }
